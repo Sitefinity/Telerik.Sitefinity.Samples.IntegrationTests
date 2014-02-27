@@ -17,7 +17,7 @@ The sample project provides you with a ready-to-test project that you can use to
 
 * Visual Studio 2012
 
-* Microsoft SQL Server 2008R2 or later verisons
+* Microsoft SQL Server 2008R2 or later versions
 
 
 ### Installation instructions: SDK Samples from GitHub
@@ -27,7 +27,7 @@ The sample project provides you with a ready-to-test project that you can use to
 
   1. In Solution Explorer, open the context menu of your project node and click _Properties_.  
   
-    The Project designer isn displayed.
+    The Project designer is displayed.
   2. Select the _Reference Paths_ tab page.
   3. Browse and select the folder where **Telerik.Sitefinity.Samples.Dependencies** folder is located.
   4. Click the _Add Folder_ button.
