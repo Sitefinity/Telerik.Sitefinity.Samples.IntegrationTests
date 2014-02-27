@@ -27,7 +27,7 @@ The sample project provides you with a ready-to-test project that you can use to
 
   1. In Solution Explorer, open the context menu of your project node and click _Properties_.  
   
-    The Project Designer appears.
+    The Project designer isn displayed.
   2. Select the _Reference Paths_ tab page.
   3. Browse and select the folder where **Telrik.Sitefinity.Samples.Dependencies** folder is located.
   4. Click the _Add Folder_ button.
