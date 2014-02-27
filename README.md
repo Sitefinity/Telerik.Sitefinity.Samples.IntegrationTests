@@ -44,7 +44,7 @@ To login to Sitefinity backend, use the following credentials:
 
 **Password:** password
 
-### Run the tests
+### Run the sample
 
 To run the tests in the Web Test Runner application:
 
