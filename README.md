@@ -3,7 +3,7 @@ Telerik.Sitefinity.Samples.IntegrationTests
 
 ## Integration Tests Sample
 
-This is a sample project containing integration tests that you can run with the web test runner. 
+The Integration Tests sample project contains integration tests that you can run with the web test runner. 
 
 This project is module-free. 
 
