@@ -52,6 +52,8 @@ The project refers to the following NuGet packages:
 * Telerik.Sitefinity.All.nupkg
 
 
+You can find the packages in the official [Sitefinity Nuget Server](http://nuget.sitefinity.com).
+
 ### Login
 
 To login to Sitefinity backend, use the following credentials: 
