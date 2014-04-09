@@ -22,19 +22,35 @@ The sample project provides you with a ready-to-test project that you can use to
 
 ### Installation instructions: SDK Samples from GitHub
 
-1. Clone the [Telerik.Sitefinity.Samples.Dependencies](https://github.com/Sitefinty-SDK/Telerik.Sitefinity.Samples.Dependencies) repo to get all assemblies neccessary to run for the samples.
-2. Fix broken references in the class libraries, for example in **SitefinityWebApp** and **Telerik.Sitefinity.Samples.Common**:
-
-  1. In Solution Explorer, open the context menu of your project node and click _Properties_.  
-  
-    The Project designer is displayed.
-  2. Select the _Reference Paths_ tab page.
-  3. Browse and select the folder where **Telerik.Sitefinity.Samples.Dependencies** folder is located.
-  4. Click the _Add Folder_ button.
 
 
-3. In Solution Explorer, navigate to _SitefinityWebApp_ -> *App_Data* -> _Sitefinity_ -> _Configuration_ and select the **DataConfig.config** file. 
-4. Modify the **connectionString** value to match your server address.
+1. In Solution Explorer, navigate to _SitefinityWebApp_ -> *App_Data* -> _Sitefinity_ -> _Configuration_ and select the **DataConfig.config** file. 
+2. Modify the **connectionString** value to match your server address.
+ 
+The project refers to the following NuGet packages:
+
+**Telerik.Sitefinity.Samples.Common** library
+
+* Telerik.Sitefinity.Core.nupkg
+
+* OpenAccess.Core.nupkg
+
+*  Telerik.Sitefinity.Content.nupkg
+
+**IntegrationTests** library
+
+* Telerik.WebTestRunner.Server.nupkg
+
+* Telerik.Sitefinity.Core.nupkg
+
+* OpenAccess.Core.nupkg
+
+* Telerik.Sitefinity.Content.nupkg
+
+**SitefinityWebApp** library
+
+* Telerik.Sitefinity.All.nupkg
+
 
 ### Login
 
