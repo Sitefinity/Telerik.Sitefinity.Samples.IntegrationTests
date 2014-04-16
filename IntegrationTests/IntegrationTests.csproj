@@ -49,10 +49,6 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="NHamcrest, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31c3ea0b6fcf8c4a">
-      <HintPath>C:\Users\dabour\AppData\Local\Telerik.Sitefinity.SDK\Dependencies\NHamcrest.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
     <Reference Include="Telerik.OpenAccess">
       <HintPath>..\SitefinityWebApp\packages\OpenAccess.Core.2013.3.1211.3\lib\Telerik.OpenAccess.dll</HintPath>
     </Reference>

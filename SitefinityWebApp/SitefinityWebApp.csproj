@@ -77,15 +77,27 @@
     <Reference Include="DirectShowLib-2005">
       <HintPath>packages\DirectShowLib-2005.2.1.0.0\lib\DirectShowLib-2005.dll</HintPath>
     </Reference>
-    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="DocumentFormat.OpenXml">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\DocumentFormat.OpenXml.2.0.5022.0\lib\DocumentFormat.OpenXml.dll</HintPath>
+      <HintPath>packages\DocumentFormat.OpenXml.1.0\lib\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Gallio, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio.dll</HintPath>
+    </Reference>
+    <Reference Include="Gallio40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio40.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>packages\HtmlAgilityPack.1.4.6\lib\Net40\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="LinqToTwitter">
-      <HintPath>packages\linqtotwitterNET40.2.1.8.0\lib\net40\LinqToTwitter.dll</HintPath>
+      <HintPath>packages\linqtotwitterNET40.2.1.9.0\lib\net40\LinqToTwitter.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit40.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CompilerServices.AsyncTargetingPack.Net4">
       <HintPath>packages\Microsoft.CompilerServices.AsyncTargetingPack.1.0.1\lib\net40\Microsoft.CompilerServices.AsyncTargetingPack.Net4.dll</HintPath>
@@ -425,9 +437,8 @@
     <Reference Include="Telerik.Web.UI.Skins">
       <HintPath>packages\Telerik.Web.UI.2013.3.1114.40\lib\net40\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.WebTestRunner.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563">
-      <HintPath>C:\Users\dabour\AppData\Local\Telerik.Sitefinity.SDK\Dependencies\Telerik.WebTestRunner.Server.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Telerik.WebTestRunner.Server">
+      <HintPath>packages\Telerik.WebTestRunner.Server.1.0.0.0\lib\Telerik.WebTestRunner.Server.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Controls">
       <HintPath>packages\Telerik.Sitefinity.Windows.Controls.2013.1.415.40\lib\net40\Telerik.Windows.Controls.dll</HintPath>
