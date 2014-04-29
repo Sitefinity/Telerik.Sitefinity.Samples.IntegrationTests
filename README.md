@@ -11,7 +11,7 @@ The sample project provides you with a ready-to-test project that you can use to
 
 ### Requirements
 
-* Sitefinity 6.3 license
+* Sitefinity license
 
 * .NET Framework 4
 
@@ -40,9 +40,9 @@ The project refers to the following NuGet packages:
 
 * Telerik.Sitefinity.Core.nupkg
 
-* OpenAccess.Core.nupkg
+* DataAccess.Core.nupkg
 
-*  Telerik.Sitefinity.Content.nupkg
+* Telerik.Sitefinity.Content.nupkg
 
 **IntegrationTests** library
 
@@ -50,7 +50,7 @@ The project refers to the following NuGet packages:
 
 * Telerik.Sitefinity.Core.nupkg
 
-* OpenAccess.Core.nupkg
+* DataAccess.Core.nupkg
 
 * Telerik.Sitefinity.Content.nupkg
 
