@@ -1,6 +1,8 @@
 Telerik.Sitefinity.Samples.IntegrationTests
 ===========================================
 
+[![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.IntegrationTests.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.IntegrationTests.CI/)
+
 ## Integration Tests Sample
 
 The Integration Tests sample project contains integration tests that you can run with the web test runner. 
