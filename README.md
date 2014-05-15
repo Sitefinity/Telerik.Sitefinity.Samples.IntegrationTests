@@ -36,34 +36,8 @@ Clear the NuGet cache files. To do this:
 1. In Solution Explorer, navigate to _SitefinityWebApp_ -> *App_Data* -> _Sitefinity_ -> _Configuration_ and select the **DataConfig.config** file. 
 2. Modify the **connectionString** value to match your server address.
  
-The project refers to the following NuGet packages:
-
-**Telerik.Sitefinity.Samples.Common** library
-
-* Telerik.Sitefinity.Core.nupkg
-
-* DataAccess.Core.nupkg
-
-* Telerik.Sitefinity.Content.nupkg
-
-**IntegrationTests** library
-
-* Telerik.WebTestRunner.Server.nupkg
-
-* Telerik.Sitefinity.Core.nupkg
-
-* DataAccess.Core.nupkg
-
-* Telerik.Sitefinity.Content.nupkg
-
-**SitefinityWebApp** library
-
-* Telerik.Sitefinity.All.nupkg
-
-* Telerik.WebTestRunner.Server.nupkg
-
-
-You can find the packages in the official [Sitefinity Nuget Server](http://nuget.sitefinity.com).
+For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases]
+ (https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.IntegrationTests/releases).
 
 ### Login
 
