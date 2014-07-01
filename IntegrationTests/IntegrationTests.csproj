@@ -45,7 +45,7 @@
     <Reference Include="MbUnit40">
       <HintPath>..\SitefinityWebApp\packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit40.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -107,11 +107,12 @@
       <HintPath>..\SitefinityWebApp\packages\Telerik.Sitefinity.Core.7.0.5100.0\lib\net40\Telerik.Sitefinity.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.WebTestRunner.Server">
-      <HintPath>..\SitefinityWebApp\packages\Telerik.WebTestRunner.Server.1.0.0.0\lib\Telerik.WebTestRunner.Server.dll</HintPath>
+      <HintPath>..\SitefinityWebApp\packages\Telerik.WebTestRunner.Server.1.0.0.1\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestCategories.cs" />
     <Compile Include="Tests\Libraries\LibrariesMethods.cs" />
     <Compile Include="Tests\Libraries\LibrariesTests.cs" />
     <Compile Include="Tests\SimpleTests.cs" />

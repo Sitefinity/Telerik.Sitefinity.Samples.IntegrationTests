@@ -11,6 +11,7 @@ namespace IntegrationTests.Tests
     public class SimpleTests
     {
         [Test]
+        [Category(TestCategories.Sdk)]
         [Author("Telerik Developer")]
         [Description("A simple test that will pass.")]
         public void PassingTest()
@@ -23,6 +24,7 @@ namespace IntegrationTests.Tests
         }
 
         [Test]
+        [Category(TestCategories.Sdk)]
         [Author("Telerik Developer")]
         [Description("A simple test that will fail.")]
         public void FailingTest()
@@ -35,6 +37,7 @@ namespace IntegrationTests.Tests
         }
 
         [Test]
+        [Category(TestCategories.Sdk)]
         [Author("Telerik Developer")]
         [Description("A simple test that will be ignored. You can run it manually in the Test runner.")]
         public void IgnoredTest()
