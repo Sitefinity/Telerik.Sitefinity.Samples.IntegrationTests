@@ -51,9 +51,8 @@ To login to Sitefinity backend, use the following credentials:
 
 To run the tests in the Web Test Runner application:
 
-1. Navigate to _Telerik.Sitefinity.Samples.Dependencies_ -> _Sitefinity API Test Runner_ -> _Client_.
+1. Navigate to Telerik.WebTestRunner.Client folder.
 
-    **NOTE**: The **Telerik.Sitefinity.Samples.Dependencies** folder is the one you cloned in the _Installation_ step.
 2. Run the **Telerik.WebTestRunner.Client.exe**.
 
 ### Additional resources
