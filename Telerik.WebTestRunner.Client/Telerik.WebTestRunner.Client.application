@@ -7,14 +7,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Telerik.WebTestRunner.Client.exe.manifest" size="9137">
+    <dependentAssembly dependencyType="install" codebase="Telerik.WebTestRunner.Client.exe.manifest" size="9141">
       <assemblyIdentity name="Telerik.WebTestRunner.Client.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/FbZrdROSCJ+6go7+bolJ9e1FMM=</dsig:DigestValue>
+        <dsig:DigestValue>sH8BENKdPi+W+xnMXr4YMEW/yXw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
