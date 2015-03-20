@@ -953,11 +953,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Sitefinity\Configuration\DataConfig.config">
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>
     </Content>
@@ -1497,6 +1492,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="OpenAccessNuGet.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Sitefinity\Configuration\StartupConfig.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="OpenAccessNuget.targets" />
