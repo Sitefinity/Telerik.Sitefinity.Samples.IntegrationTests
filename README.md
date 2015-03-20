@@ -14,11 +14,8 @@ The sample project provides you with a ready-to-test project that you can use to
 ### Requirements
 
 * Sitefinity license
-
 * .NET Framework 4
-
 * Visual Studio 2012
-
 * Microsoft SQL Server 2008R2 or later versions
 
 ### Prerequisites
@@ -27,6 +24,11 @@ Clear the NuGet cache files. To do this:
 
 1. In Windows Explorer, open the **%localappdata%\NuGet\Cache** folder.
 2. Select all files and delete them.
+
+### Nuget package restoration
+The solution in this repository relies on NuGet packages with automatic package restore while the build procedure takes place.   
+For a full list of the referenced packages and their versions see the [packages.config](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.IntegrationTests/blob/master/SitefinityWebApp/packages.config) file.    
+For a history and additional information related to package versions on different releases of this repository, see the [Releases page](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.IntegrationTests/releases).    
 
 
 ### Installation instructions: SDK Samples from GitHub
@@ -279,5 +281,4 @@ It contains the WCF service contract and other code that returns data to the cli
 ### Additional resources
 
 [Developer's Guide](http://www.sitefinity.com/documentation/documentationarticles/developers-guide)
-
 [Creating integration tests](http://www.sitefinity.com/documentation/documentationarticles/developers-guide/how-to/create-and-run-integration-tests-with-the-Sitefinity-web-test-runner)
