@@ -33,27 +33,23 @@ For a history and additional information related to package versions on differen
 
 ### Installation instructions: SDK Samples from GitHub
 
-1. In Solution Explorer, navigate to _SitefinityWebApp_ -> *App_Data* -> _Sitefinity_ -> _Configuration_ and select the **StartupConfig.config** file. 
+1. In Solution Explorer, navigate to _SitefinityWebApp_ » *App_Data* » _Sitefinity_ » _Configuration_ and select the **StartupConfig.config** file. 
 2. Modify the **dbType**, **sqlInstance** and **dbName** values to match your server settings.
 3. Build the solution.
  
-For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases]
- (https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.IntegrationTests/releases).
+For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.IntegrationTests/releases).
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials: 
-
-**Username:** admin
-
+To login to Sitefinity backend, use the following credentials:  
+**Username:** admin   
 **Password:** password
 
 ### Run the sample
 
 To run the tests in the Web Test Runner application:
 
-1. Navigate to Telerik.WebTestRunner.Client folder.
-
+1. Navigate to *Telerik.WebTestRunner.Client* folder.
 2. Run the **Telerik.WebTestRunner.Client.exe**.
 
 ### General guidelines on implementing integrated tests
@@ -279,6 +275,6 @@ Supported arguments:
 It contains the WCF service contract and other code that returns data to the client – WPF stand alone application or CMD runner.
 
 ### Additional resources
-
-[Developer's Guide](http://www.sitefinity.com/documentation/documentationarticles/developers-guide)
-[Creating integration tests](http://www.sitefinity.com/documentation/documentationarticles/developers-guide/how-to/create-and-run-integration-tests-with-the-Sitefinity-web-test-runner)
+Sitefinity documentation:
+* [Develop: Use and extend Sitefinity functionality](http://docs.sitefinity.com/develop-create-and-manage-website-content)
+* [Tutorial: Create integration tests with Sitefinity web test runner](http://docs.sitefinity.com/tutorial-create-integration-tests-with-sitefinity-web-test-runner)
