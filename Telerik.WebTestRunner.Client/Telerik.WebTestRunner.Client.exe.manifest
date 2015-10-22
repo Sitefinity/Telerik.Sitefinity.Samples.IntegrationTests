@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="Telerik.WebTestRunner.Client.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Telerik.WebTestRunner.Client" version="1.0.0.7" publicKeyToken="B28C218413BDF563" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="Telerik.WebTestRunner.Client" version="1.0.0.8" publicKeyToken="B28C218413BDF563" language="neutral" processorArchitecture="x86" />
     <commandLine file="Telerik.WebTestRunner.Client.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.exe" size="9233920">
-      <assemblyIdentity name="Telerik.WebTestRunner.Client" version="1.0.0.7" publicKeyToken="B28C218413BDF563" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.exe" size="8729600">
+      <assemblyIdentity name="Telerik.WebTestRunner.Client" version="1.0.0.8" publicKeyToken="B28C218413BDF563" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>+UgyBp0djE0foXNbcXT30+meZgg=</dsig:DigestValue>
+        <dsig:DigestValue>XWcxgu/3iEKuovxzvTME5ZC6lBI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -97,55 +97,55 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>IQkqElzM9/yeVCZkeE2CL+g9+Hs=</dsig:DigestValue>
+        <dsig:DigestValue>R7WNCep4eroUjZ3LmBiKmD0WvoI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.dll" size="3623424">
-      <assemblyIdentity name="Telerik.Windows.Controls" version="2014.3.1021.40" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.dll" size="3428864">
+      <assemblyIdentity name="Telerik.Windows.Controls" version="2015.2.623.40" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>q2jaq1Kl+sOW6v55M87jRoDF5zY=</dsig:DigestValue>
+        <dsig:DigestValue>7Yy7wxo0rZl/5TdYmyGJD+2BAc8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.GridView.dll" size="2707968">
-      <assemblyIdentity name="Telerik.Windows.Controls.GridView" version="2014.3.1021.40" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.GridView.dll" size="2553344">
+      <assemblyIdentity name="Telerik.Windows.Controls.GridView" version="2015.2.623.40" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>yDto0O3alRBYnYDtJWqQC/GLJ4Q=</dsig:DigestValue>
+        <dsig:DigestValue>3xp2fL373u2meEinvMs4ic9qto8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.Input.dll" size="2045440">
-      <assemblyIdentity name="Telerik.Windows.Controls.Input" version="2014.3.1021.40" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Controls.Input.dll" size="1887232">
+      <assemblyIdentity name="Telerik.Windows.Controls.Input" version="2015.2.623.40" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>INy9b9nHkaZ0qdKAcq494PVwENQ=</dsig:DigestValue>
+        <dsig:DigestValue>WxFAtM6vyzpk0EHToJbRErTObYc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Data.dll" size="455168">
-      <assemblyIdentity name="Telerik.Windows.Data" version="2014.3.1021.40" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Windows.Data.dll" size="457216">
+      <assemblyIdentity name="Telerik.Windows.Data" version="2015.2.623.40" publicKeyToken="5803CFA389C90CE7" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>CK+8oMl+gDRani7D6Kth3him7lA=</dsig:DigestValue>
+        <dsig:DigestValue>tVuUiksvL5IhyRVZhmX80GAHTUY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
