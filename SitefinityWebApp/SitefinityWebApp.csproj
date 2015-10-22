@@ -713,7 +713,7 @@
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Statistics, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Teleri.Sitefinity.ServicesImpl.8.2.5900.0\lib\net40\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.8.2.5900.0\lib\net40\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
         <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
