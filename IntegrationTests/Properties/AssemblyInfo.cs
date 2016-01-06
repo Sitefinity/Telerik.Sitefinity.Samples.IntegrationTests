@@ -9,10 +9,10 @@ using Telerik.WebTestRunner.Server.Attributes;
 [assembly: AssemblyTitle("IntegrationTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IntegrationTests")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Telerik")]
+[assembly: AssemblyProduct("Telerik Sitefinity CMS")]
+[assembly: AssemblyCopyright("Copyright © 2005-2016 Telerik AD")]
+[assembly: AssemblyTrademark("Sitefinity")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
