@@ -127,8 +127,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\SitefinityWebApp\packages\Telerik.Sitefinity.Core.9.0.6000.0\lib\net40\Telerik.Sitefinity.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.WebTestRunner.Server">
-      <HintPath>..\SitefinityWebApp\packages\Telerik.WebTestRunner.Server.1.0.0.1\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
+    <Reference Include="Telerik.WebTestRunner.Server, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SitefinityWebApp\packages\Telerik.WebTestRunner.Server.2.0.0.0\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

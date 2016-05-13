@@ -733,9 +733,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\Telerik.Web.UI.2016.1.225.40\lib\net40\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.WebTestRunner.Server">
+    <Reference Include="Telerik.WebTestRunner.Server, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Telerik.WebTestRunner.Server.1.0.0.1\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
+      <HintPath>packages\Telerik.WebTestRunner.Server.2.0.0.0\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Controls, Version=2015.1.225.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.Windows.Controls.2015.1.225.40\lib\net40\Telerik.Windows.Controls.dll</HintPath>
