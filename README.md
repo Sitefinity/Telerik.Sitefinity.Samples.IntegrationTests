@@ -13,7 +13,7 @@ The sample project provides you with a ready-to-test project that you can use to
 
 ### Requirements
 
-* Sitefinity license
+* Sitefinity CMS license
 * .NET Framework 4
 * Visual Studio 2012
 * Microsoft SQL Server 2008R2 or later versions
@@ -150,14 +150,16 @@ Example:
 
 ### Different User execution support
 In order to execute a test with a different user you need to use the Authenticate Attribute on the test method.
-```C# [AuthenticateAttribute(username, password)] ```
+```C# [AuthenticateAttribute(username, password, "provider")] ```
+
+Note: The _AuthenticateAttribute_ accepts a provider parameter which you can pass in order to authenticate with a speciffic membership provider such as a _LDAP_ provider. If you skip this parameter the default membership provider will be used.
 
 Example:
 ```C#
  [Test]
  [Category(TestCategories.Ssl)]
  [Author(TestAuthor.Team1)]
- [AuthenticateAttribute("editor", "password")]
+ [AuthenticateAttribute("editor", "password", "provider")]
  [Description("Ssl test")]
  public void Test1()
  {...}
@@ -182,7 +184,7 @@ using (new ElevatedModeRegion(userManager ))
 
 ### Using Integration Tests Client Application Runner
 
-After openning the Client Application - you will be prompted to enter the url of the website and the credentials for the Back end. Or you can use The Site Settings button to explicitly open the dialog and change your settings ( Located in the bottom right corner of the application).
+After openning the Client Application - you will be prompted to enter the url of the website and the credentials for the Back end. When entering your credentials you can specify a membership provider by selecting the _Use membership provider_ checkbox. For example, you can authenticate with users from a _LDAP_ prvovider. If the Membership provider is left blank the default one will be used to authenticate the user. You can use The Site Settings button to explicitly open the dialog and change your settings ( Located in the bottom right corner of the application).
 
 **Before you run the tests you should be logged out of the website.**
 
@@ -191,7 +193,7 @@ Example:
 ```XML
 <credentialsConfiguration>
   <credentials>
-    <credential username="admin" password ="password" isActive="true"/>
+    <credential username="admin" password ="password" provider="" isActive="true"/>
    </credentials>
 </credentialsConfiguration>
 ```
@@ -260,7 +262,7 @@ Supported arguments:
 ```XML
  <credentialsConfiguration>
     <credentials>
-      <credential username="admin" password ="admin@2" isActive="true"/>
+      <credential username="admin" password ="admin@2" provider="" isActive="true"/>
     </credentials>
  </credentialsConfiguration>
 ```
