@@ -184,7 +184,7 @@ using (new ElevatedModeRegion(userManager ))
 
 ### Using Integration Tests Client Application Runner
 
-After openning the Client Application - you will be prompted to enter the url of the website and the credentials for the Back end. When entering your credentials you can specify a membership provider by selecting the _Use membership provider_ checkbox. For example, you can authenticate with users from an _LDAP_ prvovider. If the Membership provider is left blank the default one will be used to authenticate the user. You can use The Site Settings button to explicitly open the dialog and change your settings ( Located in the bottom right corner of the application).
+After openning the Client Application - you will be prompted to enter the url of the website and the credentials for the Back end. When entering your credentials you can specify a membership provider by selecting the _Use membership provider_ checkbox. For example, you can authenticate with users from a _LDAP_ prvovider. If the Membership provider is left blank the default one will be used to authenticate the user. You can use The Site Settings button to explicitly open the dialog and change your settings ( Located in the bottom right corner of the application).
 
 **Before you run the tests you should be logged out of the website.**
 
