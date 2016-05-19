@@ -1,4 +1,4 @@
-Telerik.Sitefinity.Samples.IntegrationTests
+Progress.Sitefinity.Samples.IntegrationTests
 ===========================================
 
 [![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.IntegrationTests.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.IntegrationTests.CI/)
@@ -41,7 +41,7 @@ For version-specific details about the required Sitefinity NuGet packages for th
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials:  
+To login into the Sitefinity CMS backend, use the following credentials:  
 **Username:** admin   
 **Password:** password
 
@@ -54,10 +54,10 @@ To run the tests in the Web Test Runner application:
 
 ### General guidelines on implementing integrated tests
 * Tests need to be atomic. Do not rely on the order in which tests will be run.
-* Do not expect anything from Sitefinity except the initial state with which Sitefinity has been installed.
+* Do not expect anything from Sitefinity CMS except the initial state with which it has been installed.
 * Always have in mind what do you want to test. Do not make tests just to verify that “nothing breaks”
 
-### How to write integration tests for Sitefinity?
+### How to write integration tests for Sitefinity CMS?
 All Integration tests should be places in assemblies that contains integration tests attribute.
 
 1. Create a new class in your Integration Tests project.
@@ -66,7 +66,7 @@ All Integration tests should be places in assemblies that contains integration t
 4. Implement a public void method that reporesents your test.
 5. Put a ```[Test]``` attribute on top of the method that represents your test.
 6. Put a ```[Description("...")]``` attribute on top of the method and briefly describe the test purpose.
-7. Implement the test. The Implementation is identical to that of an unit test (except that you have everything at your disposal as you would in a Sitefinity page)
+7. Implement the test. The Implementation is identical to that of an unit test (except that you have everything at your disposal as you would in a Sitefinity CMS page)
 8. You can use ```[FixtureSetUp]``` and ```[FixtureTearDown]``` attribute to mark methods to be executed at the beginning of a fixture test case execution and at the end. Both methods are optional and are allowed only once per class.
 If ```[FixtureSetUp]``` invocation fails, no test case are executed and they are all marked as failures.
 If ```[FixtureTearDown]``` invocation fails again all tests are marked as failures.
@@ -220,7 +220,7 @@ Supported arguments:
 * TraceFilePath - The log file path, where test results are exported.
 * RunName - Name of the current run.
 * AssemblyName - Name of the assembly that holds your tests. If you are not going to run tests from separate assembly, don't add assemblyName in your query.
-* CategoriesFilter - Supports multiple test categories, so you can execute group of tests instead of entire list. Sitefinity's available categoris are: ModuleBuilder, Data, Core, InlineEditing, Connectors, OpenAccess, Modules, Multisite, ContentApi, SDK, Services, Publishing, Migration, Lighting, RecycleBin, Ssl.
+* CategoriesFilter - Supports multiple test categories, so you can execute group of tests instead of entire list. The available categories in Sitefinity CMS are: ModuleBuilder, Data, Core, InlineEditing, Connectors, OpenAccess, Modules, Multisite, ContentApi, SDK, Services, Publishing, Migration, Lighting, RecycleBin, Ssl.
 *LoggerType - The CMD runner supports MS TRX format that allows you to integrate it with other systems that can read it like Jenkins CI. If you don't set LoggerType - the default SitefinityXml format is used.
 * Different User Support - Both parameters must be used at the same time.
   * User - Specifies the username
@@ -277,6 +277,6 @@ Supported arguments:
 It contains the WCF service contract and other code that returns data to the client – WPF stand alone application or CMD runner.
 
 ### Additional resources
-Sitefinity documentation:
-* [Develop: Use and extend Sitefinity functionality](http://docs.sitefinity.com/develop-create-and-manage-website-content)
-* [Tutorial: Create integration tests with Sitefinity web test runner](http://docs.sitefinity.com/tutorial-create-integration-tests-with-sitefinity-web-test-runner)
+Sitefinity CMS documentation:
+* [Develop: Use and extend Sitefinity CMS functionality](http://docs.sitefinity.com/develop-create-and-manage-website-content)
+* [Tutorial: Create integration tests with Sitefinity CMS web test runner](http://docs.sitefinity.com/tutorial-create-integration-tests-with-sitefinity-web-test-runner)
