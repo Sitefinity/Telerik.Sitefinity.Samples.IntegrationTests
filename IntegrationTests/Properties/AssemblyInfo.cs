@@ -9,9 +9,9 @@ using Telerik.WebTestRunner.Server.Attributes;
 [assembly: AssemblyTitle("IntegrationTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Telerik")]
-[assembly: AssemblyProduct("Telerik Sitefinity CMS")]
-[assembly: AssemblyCopyright("Copyright © 2005-2016 Telerik AD")]
+[assembly: AssemblyCompany("Progress")]
+[assembly: AssemblyProduct("Progress Sitefinity CMS")]
+[assembly: AssemblyCopyright("© 2016 Telerik AD. All rights reserved.")]
 [assembly: AssemblyTrademark("Sitefinity")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,6 @@ using Telerik.WebTestRunner.Server.Attributes;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("9.1.6100.0")]
+[assembly: AssemblyFileVersion("9.1.6100.0")]
 [assembly: IntegrationTests()]
