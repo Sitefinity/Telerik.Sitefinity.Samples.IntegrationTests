@@ -14,7 +14,7 @@ The sample project provides you with a ready-to-test project that you can use to
 ### Requirements
 
 * Sitefinity CMS license
-* .NET Framework 4
+* .NET Framework 4.5
 * Visual Studio 2012
 * Microsoft SQL Server 2008R2 or later versions
 
