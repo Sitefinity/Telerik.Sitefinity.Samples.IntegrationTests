@@ -221,7 +221,7 @@ Supported arguments:
 * RunName - Name of the current run.
 * AssemblyName - Name of the assembly that holds your tests. If you are not going to run tests from separate assembly, don't add assemblyName in your query.
 * CategoriesFilter - Supports multiple test categories, so you can execute group of tests instead of entire list. The available categories in Sitefinity CMS are: ModuleBuilder, Data, Core, InlineEditing, Connectors, OpenAccess, Modules, Multisite, ContentApi, SDK, Services, Publishing, Migration, Lighting, RecycleBin, Ssl.
-*LoggerType - The CMD runner supports MS TRX format that allows you to integrate it with other systems that can read it like Jenkins CI. If you don't set LoggerType - the default SitefinityXml format is used.
+* LoggerType - The CMD runner supports MS TRX format that allows you to integrate it with other systems that can read it like Jenkins CI. If you don't set LoggerType - the default SitefinityXml format is used.
 * Different User Support - Both parameters must be used at the same time.
   * User - Specifies the username
   * Role - Specifies the role of the user
