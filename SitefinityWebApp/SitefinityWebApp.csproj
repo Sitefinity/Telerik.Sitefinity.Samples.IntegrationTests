@@ -124,12 +124,7 @@
       <HintPath>packages\Elasticsearch.Net.5.5.0\lib\net46\Elasticsearch.Net.dll</HintPath>
     </Reference>
     <Reference Include="Gallio, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Gallio40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio40.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\Sitefinity.Gallio_MbUnit.3.4.11.0\lib\net40\Gallio.dll</HintPath>
     </Reference>
     <Reference Include="Html2Amp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Progress.Sitefinity.HtmlToAmp.1.0.0.0\lib\net45\Html2Amp.dll</HintPath>
@@ -196,12 +191,7 @@
       <HintPath>packages\Lucene.Net.Contrib.3.0.3\lib\net40\Lucene.Net.Contrib.SpellChecker.dll</HintPath>
     </Reference>
     <Reference Include="MbUnit, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="MbUnit40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit40.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\Sitefinity.Gallio_MbUnit.3.4.11.0\lib\net40\MbUnit.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
@@ -799,9 +789,8 @@
     <Reference Include="Telerik.Web.UI.Skins, Version=2018.1.117.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Web.UI.2018.1.117.40\lib\net40\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.WebTestRunner.Server, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.WebTestRunner.Server.2.0.0.0\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Telerik.WebTestRunner.Server, Version=2.0.0.1, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.WebTestRunner.Server.2.0.0.1\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Controls, Version=2018.1.122.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Windows.Controls.2018.1.122.45\lib\net45\Telerik.Windows.Controls.dll</HintPath>

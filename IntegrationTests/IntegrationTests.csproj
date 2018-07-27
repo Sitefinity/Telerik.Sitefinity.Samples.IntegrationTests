@@ -45,12 +45,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Gallio, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>..\SitefinityWebApp\packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Gallio40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>..\SitefinityWebApp\packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio40.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\SitefinityWebApp\packages\Sitefinity.Gallio_MbUnit.3.4.11.0\lib\net40\Gallio.dll</HintPath>
     </Reference>
     <Reference Include="IdentityModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\SitefinityWebApp\packages\Progress.Sitefinity.IdentityModel.1.2.0\lib\net45\IdentityModel.dll</HintPath>
@@ -65,12 +60,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="MbUnit, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>..\SitefinityWebApp\packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="MbUnit40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>..\SitefinityWebApp\packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit40.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\SitefinityWebApp\packages\Sitefinity.Gallio_MbUnit.3.4.11.0\lib\net40\MbUnit.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.2.33, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\SitefinityWebApp\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.2.206221351\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
@@ -298,9 +288,8 @@
       <HintPath>..\SitefinityWebApp\packages\Telerik.Sitefinity.Core.10.1.6500.0\lib\net45\Telerik.Sitefinity.Utilities.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.WebTestRunner.Server, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\SitefinityWebApp\packages\Telerik.WebTestRunner.Server.2.0.0.0\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Telerik.WebTestRunner.Server, Version=2.0.0.1, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\SitefinityWebApp\packages\Telerik.Sitefinity.WebTestRunner.Server.2.0.0.1\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
