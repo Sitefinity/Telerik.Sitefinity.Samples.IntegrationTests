@@ -16,14 +16,14 @@
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
           UAC Manifest Options
-          If you want to change the Windows User Account Control level replace the
+          If you want to change the Windows User Account Control level replace the 
           requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         If you want to utilize File and Registry Virtualization for backward
+         If you want to utilize File and Registry Virtualization for backward 
          compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
@@ -103,26 +103,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.exe" size="9491456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.exe" size="320000">
       <assemblyIdentity name="Telerik.WebTestRunner.Client" version="2.0.0.1" publicKeyToken="B28C218413BDF563" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UDjP1sAleRmJUK9tdosQsAnJ9Ajf28EogR+dnbB1Hpo=</dsig:DigestValue>
+        <dsig:DigestValue>BJmmHHf7B7gkBejAl0W47zUUaiSt852701oeSgs9EbA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.Core.dll" size="96768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.Core.dll" size="102912">
       <assemblyIdentity name="Telerik.WebTestRunner.Client.Core" version="2.0.0.1" publicKeyToken="B28C218413BDF563" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1frRQurjAS5/sTBoeLIltE1qJlPm69zoqj0QF4Vy5+0=</dsig:DigestValue>
+        <dsig:DigestValue>f6BexhLsNUb8nEHx3fx6wQaaBbqO1G0Uow1KWHfn3ks=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
