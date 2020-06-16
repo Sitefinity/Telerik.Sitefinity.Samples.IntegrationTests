@@ -40,6 +40,7 @@ namespace IntegrationTests.Tests
         [Category(TestCategories.Sdk)]
         [Author("Telerik Developer")]
         [Description("A simple test that will be ignored. You can run it manually in the Test runner.")]
+        [Ignore]
         public void IgnoredTest()
         {
             int expectedValue = 2;
