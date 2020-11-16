@@ -103,26 +103,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.exe" size="9491456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.exe" size="9494528">
       <assemblyIdentity name="Telerik.WebTestRunner.Client" version="2.0.0.1" publicKeyToken="B28C218413BDF563" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yH+Z+gzhCzdQIWvl+ohnRzpTGJRgd368Cr6PuPgGb0g=</dsig:DigestValue>
+        <dsig:DigestValue>2biHnquh3roxz/RiBEg8RlHexdohJcyt55Sn5KKbsAQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.Core.dll" size="96768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WebTestRunner.Client.Core.dll" size="96256">
       <assemblyIdentity name="Telerik.WebTestRunner.Client.Core" version="2.0.0.1" publicKeyToken="B28C218413BDF563" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fTblMAHHicXopek0HWzNPRwcjNBA1YKv11HqharX1Z4=</dsig:DigestValue>
+        <dsig:DigestValue>wng86ZRzGHTaVUdaiYdmgBy7XqDRB4iejJfrCJCSzis=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
