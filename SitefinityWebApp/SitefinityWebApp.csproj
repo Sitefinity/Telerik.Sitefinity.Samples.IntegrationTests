@@ -418,8 +418,8 @@
     <Reference Include="PayPal, Version=1.9.1.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
       <HintPath>packages\PayPal.1.9.1\lib\net451\PayPal.dll</HintPath>
     </Reference>
-    <Reference Include="Progress.Sitefinity.Renderer, Version=13.2.7500.8273, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.Renderer.13.2.7500.8273\lib\netstandard2.0\Progress.Sitefinity.Renderer.dll</HintPath>
+    <Reference Include="Progress.Sitefinity.Renderer, Version=13.2.7500.9608, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.Renderer.13.2.7500.9608\lib\netstandard2.0\Progress.Sitefinity.Renderer.dll</HintPath>
     </Reference>
     <Reference Include="RazorEngine, Version=3.0.8.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.RazorEngine.3.0.8.0\lib\net40\RazorEngine.dll</HintPath>
@@ -775,7 +775,8 @@
     <Reference Include="Telerik.Sitefinity.RecycleBin, Version=13.2.7500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.RecycleBin.13.2.7500\lib\net48\Telerik.Sitefinity.RecycleBin.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Resources">
+    <Reference Include="Telerik.Sitefinity.Resources, Version=13.2.7500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\Telerik.Sitefinity.Core.13.2.7500\lib\net48\Telerik.Sitefinity.Resources.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SalesForceConnector, Version=13.2.7500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
@@ -990,23 +991,23 @@
     <Content Include="AdminApp\assets\js\monaco-editor\vs\language\typescript\src\mode.js" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\language\typescript\src\worker.js" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\loader.js" />
-    <Content Include="AdminApp\elements.41b686c06a005b86417e.bundle.js" />
+    <Content Include="AdminApp\elements.0159b5b69d395ba05871.bundle.js" />
     <Content Include="AdminApp\favicon.ico" />
     <Content Include="AdminApp\index.html" />
     <Content Include="AdminApp\InsightExtensions\insight-iris.extensions.bundle.js" />
-    <Content Include="AdminApp\main.e4f9a7794fda20196bc3.js" />
-    <Content Include="AdminApp\main.e4f9a7794fda20196bc3.js.LICENSE.txt" />
-    <Content Include="AdminApp\polyfills-es5.0472e09cf2c197b06590.js" />
-    <Content Include="AdminApp\polyfills-es5.0472e09cf2c197b06590.js.LICENSE.txt" />
-    <Content Include="AdminApp\polyfills.bdfa20e82f2ce959510d.js" />
-    <Content Include="AdminApp\polyfills.bdfa20e82f2ce959510d.js.LICENSE.txt" />
+    <Content Include="AdminApp\main.fe914d7a737978af55b8.js" />
+    <Content Include="AdminApp\main.fe914d7a737978af55b8.js.LICENSE.txt" />
+    <Content Include="AdminApp\polyfills-es5.f278ec1902f6d3f21441.js" />
+    <Content Include="AdminApp\polyfills-es5.f278ec1902f6d3f21441.js.LICENSE.txt" />
+    <Content Include="AdminApp\polyfills.4e292e7623e1c98d20b0.js" />
+    <Content Include="AdminApp\polyfills.4e292e7623e1c98d20b0.js.LICENSE.txt" />
     <Content Include="AdminApp\ProgressSitefinityCms.min.9dfe1357a58454190221.svg" />
     <Content Include="AdminApp\runtime.6a5547b8ffadba9bf0ab.js" />
     <Content Include="AdminApp\sfLoadingData.b15729e2c0a73b7329e9.gif" />
-    <Content Include="AdminApp\styles.68c51b0bfca56fa66a87.js.LICENSE.txt" />
-    <Content Include="AdminApp\styles.f8e90dd043f4c61803c3.css" />
-    <Content Include="AdminApp\vendor.b55207fa154f33d8305b.js" />
-    <Content Include="AdminApp\vendor.b55207fa154f33d8305b.js.LICENSE.txt" />
+    <Content Include="AdminApp\styles.38da8d5e9f775398f4f5.css" />
+    <Content Include="AdminApp\styles.7a4f9a57e1aa9355e82f.js.LICENSE.txt" />
+    <Content Include="AdminApp\vendor.73d1824a35d3bed4c4bd.js" />
+    <Content Include="AdminApp\vendor.73d1824a35d3bed4c4bd.js.LICENSE.txt" />
     <Content Include="App_Data\GeoLocation\citieslist.txt" />
     <Content Include="App_Data\RadCaptcha\0.wav" />
     <Content Include="App_Data\RadCaptcha\1.wav" />
@@ -1221,8 +1222,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="AdminApp\elements.41b686c06a005b86417e.bundle.js.map" />
+    <Content Include="AdminApp\elements.0159b5b69d395ba05871.bundle.js.map" />
     <Content Include="AdminApp\config.json" />
+    <Content Include="AdminApp\assets\tree\angular-tree-component-8.5.6.tgz" />
     <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
     <Content Include="AdminApp\assets\fonts\open-sans\OpenSansCondensed-Bold.ttf" />
     <Content Include="AdminApp\assets\fonts\open-sans\OpenSans-Regular.ttf" />
