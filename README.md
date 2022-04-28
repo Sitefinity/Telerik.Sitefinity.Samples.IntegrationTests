@@ -32,7 +32,7 @@ For a history and additional information related to package versions on differen
 
 ### Run the sample
 There are 2 ways to execute the tests:
-* UI Client approach - provides application with UI to execute the tests.
+* UI Client approach - provides application with UI to execute the tests. - [detailed information](https://github.com/Sitefinity/Telerik.Sitefinity.Samples.IntegrationTests#using-integration-tests-client-application-runner)
 1. Navigate to *Telerik.WebTestRunner.Client* folder.
 2. Run the **Telerik.WebTestRunner.Client.exe**.
 3. Enter the url to your website
@@ -40,7 +40,7 @@ There are 2 ways to execute the tests:
 5. The sample tests should appear
 6. From the bottom left corner you can execute all tests, or run them one by one.
 
-* ClI - non-interactive approach - [detailed information](https://github.com/Sitefinity/Telerik.Sitefinity.Samples.IntegrationTests/edit/master/README.md#using-cmd-integration-tests-runner): 
+* ClI - non-interactive approach - [detailed information](https://github.com/Sitefinity/Telerik.Sitefinity.Samples.IntegrationTests#using-cmd-integration-tests-runner): 
 1. Navigate to *Telerik.WebTestRunner.Client* folder.
 2. Run the **Telerik.WebTestRunner.Cmd.exe**.
 The CLI works with the following parameters:
