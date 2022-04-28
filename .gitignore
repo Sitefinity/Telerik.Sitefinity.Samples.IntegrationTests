@@ -187,3 +187,4 @@ FakesAssemblies/
 SitefinityWebApp/packages/*
 SitefinityWebApp/.nuget/NuGet.exe
 /SitefinityWebApp/.vs
+/IntegrationTests/packages
