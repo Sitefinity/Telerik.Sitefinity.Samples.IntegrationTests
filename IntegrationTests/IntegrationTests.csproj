@@ -56,14 +56,8 @@
     <Reference Include="Gallio, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
       <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio.dll</HintPath>
     </Reference>
-    <Reference Include="Gallio40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio40.dll</HintPath>
-    </Reference>
     <Reference Include="MbUnit, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
       <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit.dll</HintPath>
-    </Reference>
-    <Reference Include="MbUnit40, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit40.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\SitefinityWebApp\packages\Microsoft.Bcl.AsyncInterfaces.1.1.1\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
@@ -212,8 +206,8 @@
     <Reference Include="Telerik.Web.UI.Skins, Version=2021.3.914.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <HintPath>..\SitefinityWebApp\packages\Telerik.Web.UI.2021.3.914.45\lib\net45\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.WebTestRunner.Server, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.WebTestRunner.Server.2.0.0.0\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
+    <Reference Include="Telerik.WebTestRunner.Server">
+      <HintPath>..\SitefinityWebApp\packages\Telerik.WebTestRunner.Server.2.0.0.0\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
