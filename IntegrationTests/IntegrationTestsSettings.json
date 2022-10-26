@@ -1,0 +1,8 @@
+{
+  "SitefinityUrl": "http://localhost",
+  "SitefinityClientId": "",
+  "SitefinityClientSecret": "",
+  "Username": "",
+  "Password": "",
+  "TestExecutionTimeout": "00:05:00"
+}
